@@ -1,0 +1,79 @@
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+}
+
+.app-container {
+  width: 86%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border-width: 0px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.title {
+  color: #a35200;
+  font-weight: 700;
+}
+
+.description {
+  color: #334155;
+  font-weight: 400;
+}
+
+.coin {
+  height: 180px;
+  width: 180px;
+}
+
+.btn{
+    background-color: #f9d423;
+    color: #a35200;
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: pointer;
+    text-align: center;
+    padding: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: #475569;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 480px;
+  }
+
+  .details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .content {
+    margin-right: 28px;
+  }
+}
